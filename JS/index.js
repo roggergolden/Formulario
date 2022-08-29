@@ -38,7 +38,7 @@ function submitForm(e) {
     setTimeout(() => {
         document.querySelector('.alert').style.display = "none";
         
-    }, 5000);
+    }, 8000);
 
 
     //reiniciar el formulario
