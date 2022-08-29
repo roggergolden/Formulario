@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Dos de Mayo</title>
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="imagen_titulo">
+            <img  class="imagen_imagen" src="/img/200-1024x298.png" alt="Logo de la empresa">
+        </div>        
+        <div class="contenedor_terciario">
+             <div class="titulo">
+                <h1>Edificio Dos de Mayo</h1>
+            </div>
+            <div class="titulo_parrafo">
+
+                <p>
+                    Estimados Señores Propietarios e inquilinos: <br><br>
+
+                    Los saludo cordialmente y a la vez les solicito por favor,  llenar  este formulario con  sus datos,  con el fin de actualizar nuestro directorio general. <br>
+
+                    Muchas gracias.<br><br>
+
+                    Carola Riquelme<br>
+                    Administración Cariqlo SAC
+                </p>
+            </div>
+        </div>
+        
+        <main>
+            <section class="formulario-principal">
+                <form action="" class="formulario" id="formulario">                   
+                            
+                    <div class="campo">
+                        <label for="">Nombres</label>
+                        <input class="datos" type="text" name="Nombre" id="nombre" placeholder="Nombres">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Apellidos</label>
+                        <input class="datos" type="text" name="Apellido" id="apellido" placeholder="Apellidos">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Nro. departamento</label>
+                        <input class="datos" type="number" name="dpto" id="departamento" placeholder="Número de departamento">
+                    </div>
+                    <div class="campo">
+                        <label for="">Correo</label>
+                        <input class="datos" type="email" name="email" id="email" placeholder="Correo">
+                    </div>
+                    <div class="campo">
+                        <label for="">Teléfono</label>
+                        <input class="datos" type="number" name="numero" id="numero" placeholder="Teléfono">
+                    </div>
+                    <div class="campo">
+                        <label for=""> Indicar si es Propietario o Inquilino</label>
+                        <input class="datos" type="text" name="propietario" id="propietario" placeholder="Propietario o inquilino">
+                    </div>
+
+                
+                    <input class="boton" type="submit"  value="Enviar">
+
+                    
+
+                    </div>
+                    
+                    
+                </form>
+                <div class="alert"> Información enviado con éxito
+
+            </section>
+        </main>
+        
+   
+
+    </section>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="/JS/index.js"></script>
+</html>
